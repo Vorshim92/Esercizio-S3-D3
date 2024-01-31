@@ -20,14 +20,43 @@ main {
   width: 100%;
 }
 .cardList {
-  width: 25%;
-  text-align: center;
-  background-color: white;
+  position: relative;
+  max-width: 480px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 25px;
+  margin: 85px auto 0;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#input-unico {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 8px;
+  padding: 18px 45px 18px 15px;
+  border: 1px solid #ccc;
+  resize: none;
 }
 
 .divList {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+  position: relative;
+  cursor: pointer;
 }
 
 .liList {
+}
+
+#tasklist {
 }
 /* FOOTER */
