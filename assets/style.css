@@ -54,7 +54,17 @@ main {
   cursor: pointer;
 }
 
+.divList button {
+  align-items: vertical;
+  cursor: pointer;
+}
+.divList button svg {
+}
+
 .liList {
+  width: 80%;
+  margin-inline: 20px;
+  word-wrap: break-word;
 }
 
 #tasklist {
